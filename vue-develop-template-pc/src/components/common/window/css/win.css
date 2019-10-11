@@ -1,0 +1,17 @@
+.window{font:12px;color:#333;}
+.window{position:absolute;top:100px;left:100px;width:300px;height:160px;background:#F2F2F2;border:1px solid #F9F9FA;border-radius:5px;box-shadow:0 1px 3px 2px #D6D6D6;}
+.window .title{position:relative;height:27px;margin:5px;}
+.window .title h2{font-size:14px;height:27px;line-height:24px;border-bottom:1px solid #A1B4B0;}
+.window .title div{position:absolute;height:19px;top:2px;right:0;}
+.window .title a,a.open{float:left;width:21px;height:19px;display:block;margin-left:5px;background:url(tool.png) no-repeat;}
+.window a.open{position:absolute;top:10px;left:50%;margin-left:-10px;background-position:0 0;}
+.window a.open:hover{background-position:0 -29px;}
+.window .title a.min{background-position:-29px 0;display:none;}
+.window .title a.min:hover{background-position:-29px -29px;}
+.window .title a.max{background-position:-60px 0;}
+.window .title a.max:hover{background-position:-60px -29px;}
+.window .title a.revert{background-position:-149px 0;display:none;}
+.window .title a.revert:hover{background-position:-149px -29px;}
+.window .title a.close{background-position:-89px 0;}
+.window .title a.close:hover{background-position:-89px -29px;}
+.window .content{overflow:hidden;margin:0 5px;}

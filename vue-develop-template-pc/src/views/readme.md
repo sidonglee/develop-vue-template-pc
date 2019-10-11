@@ -1,0 +1,11 @@
+apidocument 框架实例
+buy-manager 采购管理
+error-page  错误提示页面
+expense-manager 报销管理
+home 		首页
+hr-manager	人力管理
+login		登录
+main-frame	主页
+project-manager	项目管理
+job		我的任务
+user	个人中心

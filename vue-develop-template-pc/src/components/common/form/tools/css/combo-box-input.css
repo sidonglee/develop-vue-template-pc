@@ -1,0 +1,13 @@
+.user-combo-box-input-cls .user-input{
+    position: absolute;
+    z-index: 1
+}
+.user-combo-box-input-cls .user-select{
+    z-index: -1;
+    border: 0px !important
+}
+.user-combo-box-input-cls .user-select input{
+    border: 0px !important;
+    height: 27px !important;
+    line-height: 27px !important;
+}

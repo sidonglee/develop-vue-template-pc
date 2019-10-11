@@ -1,0 +1,10 @@
+/*隐藏百度地图图标*/
+body .anchorBL img{display:none;}
+/*版本文字*/
+body .BMap_cpyCtrl{display:none;}
+/*比例尺*/
+body .BMap_scaleCtrl{
+	left: 20px !important;
+}
+/* body .anchorBL{display:none;}
+body .BMap_scaleTxt .anchorBL{display:none;} */

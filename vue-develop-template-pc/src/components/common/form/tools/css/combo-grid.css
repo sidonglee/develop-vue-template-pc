@@ -1,0 +1,15 @@
+/* .el-select-dropdown__list{
+    padding: 0px !important;
+} */
+.combogrid-panel-cls .el-table--small td, .el-table--small th{
+    padding: 3px 0px !important;
+}
+/* .el-select-dropdown__wrap{
+    max-height: 350px !important;
+} */
+.combogrid-panel-content-cls .el-container{
+    overflow: hidden;
+}
+.combogrid-panel-cls{
+    font-weight: normal !important;
+}
